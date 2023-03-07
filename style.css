@@ -1,0 +1,40 @@
+
+:root {
+    --headerFont: "Jost";
+    --subHeaderFont: "Fira Code";
+    --fontColour: #ffffff;
+    --backgroundColour: #1f2022;
+}
+
+* {
+    color: var(--fontColour);
+    background-color: var(--backgroundColour);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-container {
+    font-family: var(--headerFont);
+    font-weight: normal;
+    letter-spacing: .2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phrase-container {
+    font-family: var(--subHeaderFont);
+    font-weight: lighter;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
